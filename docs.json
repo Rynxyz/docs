@@ -71,13 +71,8 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
           "anchor": "Community",
-          "href": "https://mintlify.com/community",
+          "href": "https://discord.fluxhosting.xyz",
           "icon": "slack"
         },
         {
@@ -89,14 +84,14 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "https://www.fluxhosting.xyz/images/logo.png",
+    "dark": "https://www.fluxhosting.xyz/images/logo.png"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@fluxhosting.xyz"
       }
     ],
     "primary": {
@@ -107,9 +102,7 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "youtube": "https://www.youtube.com/@FluxHosting"
     }
   }
 }
