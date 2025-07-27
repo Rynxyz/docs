@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "FluxHosting",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -14,55 +14,48 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Getting Started",
             "pages": [
               "index",
               "quickstart",
-              "development"
+              "deployment"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Server Management",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "servers/create",
+              "servers/manage",
+              "servers/backups",
+              "servers/reinstall"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Billing & Support",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "billing/payments",
+              "billing/invoices",
+              "support/contact"
             ]
           }
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "API",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "Overview",
             "pages": [
-              "api-reference/introduction"
+              "api/overview"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Endpoints",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "api/get-server",
+              "api/create-server",
+              "api/delete-server",
+              "api/webhook-events"
             ]
           }
         ]
@@ -71,14 +64,9 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Community",
+          "anchor": "Join our Discord",
           "href": "https://discord.fluxhosting.xyz",
           "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
         }
       ]
     }
@@ -90,14 +78,14 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
+        "label": "Contact",
         "href": "mailto:support@fluxhosting.xyz"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Client Area",
+      "href": "https://client.fluxhosting.xyz"
     }
   },
   "footer": {
